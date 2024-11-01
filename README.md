@@ -1,4 +1,4 @@
-# "Cloudiness Estimation in Images Using VGG16: A Data-Driven Approach
+# "Cloudiness Estimation in Images Using VGG16: A Data-Driven Approach"
 
 # Abstract
 
@@ -30,6 +30,9 @@ def define_model(pretrained, num_classes):
     model = tf.keras.Model(inputs, outputs)
     return model
 ```
+
+<p align="center"><img src="model.png" alt="txt_to_img" width="1000" height="500"/></a></p>
+
 ### Training Procedure
 The model was trained using the Adam optimizer with a learning rate of 10^-4. The loss function used was categorical cross-entropy, and the performance metrics included categorical accuracy and mean squared error (MSE). The training process incorporated several callbacks, such as ModelCheckpoint to save the best model, EarlyStopping to halt training if no improvement was observed, and ReduceLROnPlateau to reduce the learning rate when the validation loss plateaued.
 
@@ -53,7 +56,7 @@ def train(model, train_loader, val_loader, epochs, lr=1e-5):
         callbacks=[checkpoint, early_stopping, reduce_lr]
     )
 ```
-<p align="center"><img src="vgg16_0_trained.png" alt="txt_to_img" width="700" height="500"/></a></p>
+<p align="center"><img src="vgg16_0_trained.png" alt="txt_to_img" width="1000" height="500"/></a></p>
 
 ### Evaluation
 The trained model was evaluated on the validation dataset to assess its accuracy and MSE. Additionally, we visualized the training process by plotting the loss and accuracy curves for both training and validation sets.
