@@ -58,7 +58,7 @@ def train(model, train_loader, val_loader, epochs, lr=1e-5):
 ```
 
 ### Visualization
-<p align="left"><img src="./vgg16_0_trained.png" alt="Training and validation graphs"/></p>
+<p align="left"><img src="./vizualization.png" alt="Training and validation graphs"/></p>
 
 ### Evaluation
 The trained model was evaluated on the validation dataset to assess its accuracy and MSE. Additionally, we visualized the training process by plotting the loss and accuracy curves for both training and validation sets.
