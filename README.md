@@ -23,6 +23,7 @@ This is ongoing reserach work , can not provide code files. We will soon update 
   <img src="https://github.com/Urviskumar/Cloudiness-Estimation-in-Images-Using-VGG16/blob/main/images/20130309_133538.jpg"  width="200"/>
   <img src="https://github.com/Urviskumar/Cloudiness-Estimation-in-Images-Using-VGG16/blob/main/images/20130310_135713.jpg" width="200"/>
   <img src="https://github.com/Urviskumar/Cloudiness-Estimation-in-Images-Using-VGG16/blob/main/images/20130417_135718.jpg" width="200"/>
+  <img src="https://github.com/Urviskumar/Cloudiness-Estimation-in-Images-Using-VGG16/blob/10f9eb862687871e2eda6966bc0d03b06f14bbe9/images/20130309_015706.jpg" width="200"/>
 </p>
 
 
