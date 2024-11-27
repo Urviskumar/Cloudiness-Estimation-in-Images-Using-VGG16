@@ -62,10 +62,13 @@ def train(model, train_loader, val_loader, epochs, lr=1e-5):
 ```
 
 ### Visualization
+<p align="left">Classification Plot</p>
 <p align="left"><img src="./vizualization.png" alt="Training and validation graphs"/></p>
 
 <p align="left">Regression Plot</p>
 <p align="left"><img src="./regression_plot.png" alt="Training and validation graphs"/></p>
+
+<p align="left">Gaussian Distribution Plot</p>
 
 
 ### Evaluation
