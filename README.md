@@ -69,7 +69,7 @@ def train(model, train_loader, val_loader, epochs, lr=1e-5):
 <p align="left"><img src="./regression_plot.png" alt="Training and validation graphs"/></p>
 
 <p align="left">Gaussian Distribution Plot</p>
-
+[Soon Updated]
 
 ### Evaluation
 <p align="justify">The trained model was evaluated on the validation dataset to assess its accuracy and MSE. Additionally, we visualized the training process by plotting the loss and accuracy curves for both training and validation sets.</p>
