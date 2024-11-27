@@ -14,8 +14,8 @@ This is ongoing reserach work , can not provide code files. We will soon update 
 ## Methodology
 
 ### Dataset Preparation
-<p align="justify">We created a cloudiness dataset by extracting relevant images from the Transient Attribute Dataset, focusing on three categories: less cloudy, partially cloudy, and more cloudy. The dataset was then split into training, validation, and test sets.</p>
-###
+<p align="justify">We created a cloudiness dataset by extracting relevant images from the Transient Attribute Dataset, focusing on three categories: less cloudy, partially cloudy, and more cloudy.</p>
+
 
 <p align="start">
   <img src="https://github.com/Urviskumar/Cloudiness-Estimation-in-Images-Using-VGG16/blob/main/images/20130224_132707.jpg" width="200"/>
