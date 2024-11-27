@@ -15,6 +15,17 @@ This is ongoing reserach work , can not provide code files. We will soon update 
 
 ### Dataset Preparation
 <p align="justify">We created a cloudiness dataset by extracting relevant images from the Transient Attribute Dataset, focusing on three categories: less cloudy, partially cloudy, and more cloudy. The dataset was then split into training, validation, and test sets.</p>
+###
+
+<p align="start">
+  <img src="https://github.com/Urviskumar/Cloudiness-Estimation-in-Images-Using-VGG16/blob/main/images/20130224_132707.jpg" width="200"/>
+  <img src="https://github.com/Urviskumar/Cloudiness-Estimation-in-Images-Using-VGG16/blob/main/images/20130224_133529.jpg"  width="200"/>
+  <img src="https://github.com/Urviskumar/Cloudiness-Estimation-in-Images-Using-VGG16/blob/main/images/20130309_133538.jpg"  width="200"/>
+  <img src="https://github.com/Urviskumar/Cloudiness-Estimation-in-Images-Using-VGG16/blob/main/images/20130310_135713.jpg" width="200"/>
+  <img src="https://github.com/Urviskumar/Cloudiness-Estimation-in-Images-Using-VGG16/blob/main/images/20130417_135718.jpg" width="200"/>
+</p>
+
+
 
 ### Model Architecture
 <p align="justify">We employed the VGG16 model, pretrained on the ImageNet dataset, as the base model for our cloudiness estimation task. The model was modified to include a global average pooling layer, a dropout layer with a rate of 0.2, and a batch normalization layer. The final output layer is a dense layer with three neurons, corresponding to the three cloudiness categories, and a softmax activation function to provide the confidence scores.</p>
